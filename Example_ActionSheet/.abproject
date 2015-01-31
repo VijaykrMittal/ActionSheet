@@ -1,0 +1,37 @@
+{
+  "ProjectName": "Example_ActionSheet",
+  "ProjectGuid": "345aad9d-8da8-4186-838c-a293abbe015c",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.ExampleActionSheet",
+  "DisplayName": "Example_ActionSheet",
+  "Author": "",
+  "Description": "",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "3.5.0",
+  "AndroidPermissions": [],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "false",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{64a1e660-28f3-475c-9366-eda25b5e9915}",
+  "WP8ProductID": "{d3b246c1-fd5d-4712-8e40-e1a2b2153865}",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}
