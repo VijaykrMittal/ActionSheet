@@ -8,9 +8,32 @@
     <script src="cordova.js"></script>
     <script src="kendo/js/jquery.min.js"></script>
     <script src="kendo/js/kendo.mobile.min.js"></script>
+    <script src="script/app.js"></script>
+    <script src="script/main.js"></script>
+    <style>
+        .btn{width:100%;}
+    </style>
     
 </head>
 <body>
-    
+    <div data-role="view" id="main" data-model="app.main">
+        <div style="width:90%;height:auto;margin:0px auto;margin-top:50px;">
+            <p>
+                <a data-role="button" class="btn" data-bind="click:viafacebook">Share via Facebook</a>
+            </p>
+            
+            <p>
+                <a data-role="button" class="btn" data-bind="click:viatwitter">Share via Twitter</a>
+            </p>
+            
+            <p>
+                <a data-role="button" class="btn" data-bind="click:viaimage">Share Image</a>
+            </p>
+            
+            <p>
+                <a data-role="button" class="btn" data-bind="click:logout">Logout</a>
+            </p>
+        </div>
+    </div>
 </body>
 </html>
